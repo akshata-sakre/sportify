@@ -1,0 +1,28 @@
+home-products in the form of cards
+about-abot our website
+contact- conatct deatils
+login- login form\
+
+TUES-
+CART ,PAYMENT,ADMIN-MAIL,ROLE,LAST LOGIN ..
+admin dashboard,  user dashboard -hw
+
+
+
+note-
+npm install react-router-dom
+npm run dev
+
+for deployment-
+to build-
+npm run build 
+to install vercel-
+npm install vercel -g
+npm install vercel
+vercel build
+vercel
+vercel --prod
+
+
+
+

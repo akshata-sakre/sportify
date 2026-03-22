@@ -1,0 +1,82 @@
+.footer {
+  background-color: #f6fbff;  /* milk blue */
+  padding: 40px 20px 20px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+  border-top: 1px solid #e8f6ff; 
+  padding-top: 30px;             
+}
+
+/* Sections */
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Logo */
+.footer-logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #a8d8ff;   /* milk blue text */
+  margin-bottom: 10px;
+}
+
+/* Paragraph text */
+.footer-text {
+  font-size: 14px;
+  color: #a8d8ff;  
+  line-height: 1.6;
+}
+
+/* Section titles */
+.footer-section h3 {
+  font-size: 18px;
+  color: #9fd2ff;
+  margin-bottom: 12px;
+}
+
+/* List */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+.footer-section ul li a {
+  text-decoration: none;
+  color: #a8d8ff;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #8fcbff; 
+}
+
+/* Paragraph inside section */
+.footer-section p {
+  color: #9fd2ff; 
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #a8d8ff;
+  border-top: 1px solid #e8f6ff;
+  padding-top: 15px;
+}

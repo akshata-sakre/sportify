@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fcfeff;  /* milky white blue */
+}
+
+/* NAVBAR */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #f2faff;   /* milk blue */
+  border-bottom: 1px solid #e8f6ff;
+}
+
+/* Navigation List */
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo */
+.header-nav h1 {
+  font-size: 40px;
+  font-weight: 1000;
+  color: #a8d8ff;   /* soft milky blue */
+  letter-spacing: 1px;
+}
+
+/* Nav Items */
+.header-nav li {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Nav Links */
+.header-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  color: #a8d8ff;
+  padding: 6px 0;
+  transition: 0.3s ease;
+}
+
+/* Hover */
+.header-nav a:hover {
+  color: #8fcbff;
+  border-bottom: 1px solid #8fcbff;
+}
+
+/* Active */
+.header-nav a.active {
+  color: #8fcbff;
+  border-bottom: 1px solid #8fcbff;
+}
